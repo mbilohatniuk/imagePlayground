@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		E16D982823603AD000EC7F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D982723603AD000EC7F57 /* AppDelegate.swift */; };
 		E16D982A23603AD000EC7F57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D982923603AD000EC7F57 /* SceneDelegate.swift */; };
-		E16D982C23603AD000EC7F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D982B23603AD000EC7F57 /* ViewController.swift */; };
 		E16D982F23603AD000EC7F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D982D23603AD000EC7F57 /* Main.storyboard */; };
 		E16D983123603AD100EC7F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16D983023603AD100EC7F57 /* Assets.xcassets */; };
 		E16D983423603AD100EC7F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D983223603AD100EC7F57 /* LaunchScreen.storyboard */; };
+		E16D983E23618AEA00EC7F57 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D983D23618AEA00EC7F57 /* MainViewController.swift */; };
+		E16D98422361B2F700EC7F57 /* ZoomDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D98412361B2F700EC7F57 /* ZoomDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E16D982423603AD000EC7F57 /* image_Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = image_Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D982723603AD000EC7F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16D982923603AD000EC7F57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E16D982B23603AD000EC7F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E16D982E23603AD000EC7F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16D983023603AD100EC7F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16D983323603AD100EC7F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E16D983523603AD100EC7F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16D983D23618AEA00EC7F57 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E16D98412361B2F700EC7F57 /* ZoomDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,24 @@
 		E16D982623603AD000EC7F57 /* image_Playground */ = {
 			isa = PBXGroup;
 			children = (
+				E16D983B23603E5000EC7F57 /* Controllers */,
 				E16D982723603AD000EC7F57 /* AppDelegate.swift */,
 				E16D982923603AD000EC7F57 /* SceneDelegate.swift */,
-				E16D982B23603AD000EC7F57 /* ViewController.swift */,
 				E16D982D23603AD000EC7F57 /* Main.storyboard */,
-				E16D983023603AD100EC7F57 /* Assets.xcassets */,
 				E16D983223603AD100EC7F57 /* LaunchScreen.storyboard */,
+				E16D983023603AD100EC7F57 /* Assets.xcassets */,
 				E16D983523603AD100EC7F57 /* Info.plist */,
 			);
 			path = image_Playground;
+			sourceTree = "<group>";
+		};
+		E16D983B23603E5000EC7F57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E16D983D23618AEA00EC7F57 /* MainViewController.swift */,
+				E16D98412361B2F700EC7F57 /* ZoomDetailViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16D982C23603AD000EC7F57 /* ViewController.swift in Sources */,
+				E16D98422361B2F700EC7F57 /* ZoomDetailViewController.swift in Sources */,
+				E16D983E23618AEA00EC7F57 /* MainViewController.swift in Sources */,
 				E16D982823603AD000EC7F57 /* AppDelegate.swift in Sources */,
 				E16D982A23603AD000EC7F57 /* SceneDelegate.swift in Sources */,
 			);
